@@ -1,0 +1,38 @@
+/*Traking*/
+main{
+    .p-servicios{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: $font1;
+        font-weight:500;
+    }
+    .barra-busqueda{
+        .form1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 25vh;
+              }
+        .label1 {
+            margin-right: 10px;
+            font-family: $font3;
+             }
+        .input1 {
+            padding: 8px;
+            font-size: 16px;
+              }
+        .button1 {
+            padding: 8px 15px;
+            font-size: 16px;
+            background-color: $rojo2;
+            color: $blanco;
+            border: none;
+            &:hover {
+                background-color: $negro;
+              }
+              
+        }
+    }
+ }
+

@@ -1,0 +1,463 @@
+/*estilos generales*/
+* {
+  margin: 0px;
+  padding: 0px;
+  min-width: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #321e1e, #dc4f4f);
+}
+
+.contenedor-h1 {
+  width: auto;
+  height: 300px;
+  background-image: url(../medios/fondo-camion);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0%;
+}
+.contenedor-h1 h1 {
+  font-family: "Fugaz One", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: crimson;
+  text-shadow: -3px -3px 0 black;
+  padding-top: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #FF9800;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: x-large;
+}
+
+header {
+  background: linear-gradient(to right, #FF9800, #B80000);
+  width: auto;
+  height: 300px;
+  top: 0px;
+}
+header .imagen1 {
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+header .redes {
+  width: 25px;
+  height: 25px;
+}
+header nav {
+  text-align: right;
+}
+header nav ul .navbar {
+  display: flex;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+main .ws {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+main .ws1 {
+  width: 55px;
+  height: 55px;
+}
+
+.video-container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 100px;
+}
+.video-container iframe {
+  width: 75%;
+  height: 400px;
+}
+
+/*Traking*/
+main .p-servicios {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 500;
+}
+main .barra-busqueda .form1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+main .barra-busqueda .label1 {
+  margin-right: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+main .barra-busqueda .input1 {
+  padding: 8px;
+  font-size: 16px;
+}
+main .barra-busqueda .button1 {
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: crimson;
+  color: #fff;
+  border: none;
+}
+main .barra-busqueda .button1:hover {
+  background-color: black;
+}
+
+/*Servicios*/
+main .p-servicios {
+  text-align: center;
+  color: #fff;
+  font-size: xx-large;
+  margin-top: 20px;
+}
+main .tarjeta1 {
+  height: 500px;
+}
+main .tex1 {
+  text-align: justify;
+}
+
+/*destinos*/
+.gridcontenedor {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 300px repeat(2, 250px) 300px;
+  grid-template-areas: "publicidad destino1 destino1" "publicidad info1 publicidad2" "publicidad info2 publicidad2" "publicidad destino3 destino2";
+  gap: 20px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+.gridcontenedor img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.gridcontenedor .publicidad {
+  grid-area: publicidad;
+}
+.gridcontenedor .publicidad2 {
+  grid-area: publicidad2;
+}
+.gridcontenedor .destino1 {
+  grid-area: destino1;
+}
+.gridcontenedor .destino2 {
+  grid-area: destino2;
+}
+.gridcontenedor .destino3 {
+  grid-area: destino3;
+}
+.gridcontenedor .info1 {
+  grid-area: info1;
+}
+.gridcontenedor .info2 {
+  grid-area: info2;
+}
+.gridcontenedor .info1 {
+  background-color: #4f0004;
+  color: #fff;
+}
+.gridcontenedor .info1 p {
+  text-align: justify;
+  margin-top: 40px;
+  font-size: larger;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.gridcontenedor .info2 {
+  background-color: #333;
+  color: #fff;
+}
+.gridcontenedor .info2 ul {
+  text-align: justify;
+  margin-top: 40px;
+  font-size: large;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+/*contacto*/
+/*formulario*/
+.form-contact {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+.form-contact .ul-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.form-contact .form-contact li + li {
+  margin-top: 1em;
+}
+.form-contact label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+.form-contact input,
+.form-contact textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+.form-contact input:focus,
+.form-contact textarea:focus {
+  border-color: black;
+}
+.form-contact textarea {
+  vertical-align: top;
+  height: 5em;
+}
+.form-contact .button {
+  padding-left: 90px;
+}
+.form-contact button {
+  margin-left: 0.5em;
+}
+.form-contact .p-contact {
+  display: flex;
+  justify-content: center;
+}
+.form-contact .term {
+  display: flex;
+  justify-content: center;
+}
+.form-contact .bt-enviar {
+  display: flex;
+  justify-content: center;
+}
+
+/*Mapa ubicacion*/
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+/*media Queries*/
+/*mobile*/
+@media only screen and (max-width: 480px) {
+  header {
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+  header .imagen1 {
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+  }
+  header nav {
+    width: 100%;
+    height: auto;
+  }
+  header nav a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  header nav li {
+    width: 70%;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  /*index*/
+  iframe {
+    width: 200px;
+    height: 200px;
+  }
+  /*destino*/
+  .gridcontenedor {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 100px repeat(18, 100px);
+    grid-template-areas: "destino1" "destino1" "publicidad " "publicidad " "publicidad" "info1 " "info1" "info1" "publicidad2" "publicidad2" "destino2" "destino2" "destino3" "destino3" "info2" "info2" "info2" "info2";
+    gap: 10px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-size: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /*servicios*/
+  .p-servicios {
+    font-size: medium;
+    margin-top: 20px;
+    color: #fff;
+  }
+  /*contact*/
+  .form-contact {
+    width: 300px;
+  }
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 90px;
+  }
+  footer {
+    font-size: small;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1023px) {
+  header {
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+  header .imagen1 {
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+  }
+  header nav {
+    width: 100%;
+    height: auto;
+  }
+  header nav a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  header nav li {
+    width: 70%;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  /*index*/
+  iframe {
+    width: 200px;
+    height: 200px;
+  }
+  /*destino*/
+  .gridcontenedor {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 100px repeat(18, 100px);
+    grid-template-areas: "destino1" "destino1" "publicidad " "publicidad " "publicidad" "info1 " "info1" "info1" "publicidad2" "publicidad2" "destino2" "destino2" "destino3" "destino3" "info2" "info2" "info2" "info2";
+    gap: 10px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-size: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /*servicios*/
+  .p-servicios {
+    font-size: medium;
+    margin-top: 20px;
+    color: #fff;
+  }
+  /*contact*/
+  .form-contact {
+    width: 300px;
+  }
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 90px;
+  }
+  footer {
+    font-size: small;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  /*index*/
+  iframe {
+    width: 500px;
+    height: 500px;
+    padding-bottom: 50px;
+  }
+  /*destino*/
+  .gridcontenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 300px repeat(2, 250px) 300px;
+    grid-template-areas: "publicidad destino1 destino1" "publicidad info1 publicidad2" "publicidad info2 publicidad2" "publicidad destino3 destino2";
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    font-size: 0.75rem;
+  }
+  .ulgrid {
+    font-size: 0.75rem;
+  }
+  /*servicios*/
+  .p-servicios {
+    font-size: medium;
+    margin-top: 20px;
+    color: #fff;
+  }
+  /*contact*/
+  .form-contact {
+    width: 400px;
+  }
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 90px;
+  }
+  footer {
+    font-size: 1rem;
+    height: 200px;
+  }
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,57 @@
+
+header{
+    background: linear-gradient(to right, $amarillo, $rojo ) ;
+    width: auto;
+    height: 300px;
+    top:0px;
+    .imagen1{
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 30px;
+        border-radius: 20px;
+        }
+    .redes{
+        width: 25px;
+        height: 25px;
+          }
+    nav{
+        text-align: right ;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        ul{
+            .navbar{
+                display: flex;
+                display: inline-block;
+                margin: 0 10px;
+                a{
+                    text-decoration: none;
+                    color: #1d1b1b;
+                    font-weight: bold;
+                    font-size: 20px;
+                    transition: color 0.3s ease-in-out;
+                    &:hover {
+                        color: #0023d4;
+                  }
+                }
+            }
+        }
+    }
+
+
+/*footer*/
+
+footer {
+    background-color: $negro2;
+    color: $blanco;
+    padding: 20px;
+    text-align: center;
+    a {
+        color: $blanco;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+          }
+      }
+}
