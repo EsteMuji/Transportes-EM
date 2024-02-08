@@ -103,6 +103,11 @@ main .ws1 {
   height: 55px;
 }
 
+.boot {
+  width: 90%;
+  margin: auto;
+}
+
 .video-container {
   padding-top: 100px;
   display: flex;
@@ -358,7 +363,7 @@ main .tex1 {
     height: 200px;
   }
 }
-@media screen and (min-width: 500px) and (max-width: 1023px) {
+@media screen and (min-width: 481px) and (max-width: 1023px) {
   header {
     font-size: 1rem;
     flex-direction: column;
