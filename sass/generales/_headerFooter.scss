@@ -25,19 +25,21 @@ header{
                 display: flex;
                 display: inline-block;
                 margin: 0 10px;
-                a{
+                a {
                     text-decoration: none;
                     color: #1d1b1b;
                     font-weight: bold;
                     font-size: 20px;
                     transition: color 0.3s ease-in-out;
                     &:hover {
-                        color: #0023d4;
+                        color: #00bcd4;
                   }
                 }
             }
         }
     }
+
+ }
 
 
 /*footer*/
@@ -54,4 +56,4 @@ footer {
             text-decoration: underline;
           }
       }
-}
+  }

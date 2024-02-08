@@ -58,11 +58,24 @@ header .redes {
 }
 header nav {
   text-align: right;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 header nav ul .navbar {
   display: flex;
   display: inline-block;
   margin: 0 10px;
+}
+header nav ul .navbar a {
+  text-decoration: none;
+  color: #1d1b1b;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+header nav ul .navbar a:hover {
+  color: #00bcd4;
 }
 
 /*footer*/
